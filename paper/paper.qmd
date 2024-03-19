@@ -1,0 +1,101 @@
+---
+title: "My title"
+subtitle: "My subtitle if needed"
+author: 
+  - First author
+  - Another author
+thanks: "Code and data are available at: https://github.com/peachvegetable/STA302-mini-essay-10"
+date: today
+date-format: long
+abstract: "First sentence. Second sentence. Third sentence. Fourth sentence."
+format: pdf
+number-sections: true
+bibliography: references.bib
+---
+
+```{r}
+#| include: false
+#| warning: false
+#| message: false
+
+library(tidyverse)
+library(knitr)
+library(rstanarm)
+library(modelsummary)
+library(boot)
+library(broom.mixed)
+```
+
+
+# Introduction
+
+Generates a model on the dataset obtained from kaggle Student Study Performance, how math score is related to various variables.
+
+
+
+# Data {#sec-data}
+
+```{r}
+#| label: tbl-meanvariance
+#| tbl-cap: mean and variance of the math score
+#| echo: false
+#| warning: false
+
+analysis_data <- read.csv("../data/analysis_data/analysis_data.csv")
+
+
+mean_var <- analysis_data|>
+  summarise(
+    Mean_Deaths = mean(math_score, na.rm = TRUE),
+    Variance_Deaths = var(math_score, na.rm = TRUE)
+  )
+
+# Use kable to create a table
+kable_table <- kable(mean_var, format = "latex", digits = c(1, 1),
+                     col.names = c("Mean", "Variance"))
+
+kable_table
+
+```
+
+```{r}
+#| label: tbl-meanvariance
+#| fig-cap: mean and variance of the math score
+#| echo: false
+#| warning: false
+
+neg_binomial_model <- readRDS("../models/neg_binomial_model.rds")
+
+modelsummary(
+  list(
+    "Negative binomial" = neg_binomial_model
+    )
+)
+```
+
+
+
+
+# Model
+
+
+## Model set-up
+
+Define $y_i$ as the number of seconds that the plane remained aloft. Then $\beta_i$ is the wing width and $\gamma_i$ is the wing length, both measured in millimeters.  
+
+\begin{align} 
+y_i|\mu_i, \sigma &\sim \mbox{Normal}(\mu_i, \sigma) \\
+\mu_i &= \alpha + \beta_i + \gamma_i\\
+\alpha &\sim \mbox{Normal}(0, 2.5) \\
+\beta &\sim \mbox{Normal}(0, 2.5) \\
+\gamma &\sim \mbox{Normal}(0, 2.5) \\
+\sigma &\sim \mbox{Exponential}(1)
+\end{align}
+
+
+\newpage
+
+
+# References
+
+

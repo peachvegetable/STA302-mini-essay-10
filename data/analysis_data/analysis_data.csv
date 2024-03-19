@@ -1,0 +1,1001 @@
+gender,parental_level_of_education,test_preparation_course,math_score
+female,bachelor's degree,none,72
+female,some college,completed,69
+female,master's degree,none,90
+male,associate's degree,none,47
+male,some college,none,76
+female,associate's degree,none,71
+female,some college,completed,88
+male,some college,none,40
+male,high school,completed,64
+female,high school,none,38
+male,associate's degree,none,58
+male,associate's degree,none,40
+female,high school,none,65
+male,some college,completed,78
+female,master's degree,none,50
+female,some high school,none,69
+male,high school,none,88
+female,some high school,none,18
+male,master's degree,completed,46
+female,associate's degree,none,54
+male,high school,none,66
+female,some college,completed,65
+male,some college,none,44
+female,some high school,none,69
+male,bachelor's degree,completed,74
+male,master's degree,none,73
+male,some college,none,69
+female,bachelor's degree,none,67
+male,high school,none,70
+female,master's degree,none,62
+female,some college,none,69
+female,some college,none,63
+female,master's degree,none,56
+male,some college,none,40
+male,some college,none,97
+male,associate's degree,completed,81
+female,associate's degree,none,74
+female,some high school,none,50
+female,associate's degree,completed,75
+male,associate's degree,none,57
+male,associate's degree,none,55
+female,associate's degree,none,58
+female,associate's degree,none,53
+male,some college,completed,59
+female,associate's degree,none,50
+male,associate's degree,none,65
+female,associate's degree,completed,55
+female,high school,none,66
+female,associate's degree,completed,57
+male,high school,completed,82
+male,some college,none,53
+male,associate's degree,completed,77
+male,some college,none,53
+male,high school,none,88
+female,some high school,completed,71
+female,high school,none,33
+female,associate's degree,completed,82
+male,associate's degree,none,52
+male,some college,completed,58
+female,some high school,none,0
+male,bachelor's degree,completed,79
+male,some high school,none,39
+male,associate's degree,none,62
+female,associate's degree,none,69
+female,some high school,none,59
+male,some high school,none,67
+male,some high school,none,45
+female,some college,none,60
+male,associate's degree,none,61
+female,associate's degree,none,39
+female,some college,completed,58
+male,some college,completed,63
+female,associate's degree,none,41
+male,some high school,none,61
+male,some high school,none,49
+male,associate's degree,none,44
+male,some high school,none,30
+male,bachelor's degree,completed,80
+female,some high school,completed,61
+female,master's degree,none,62
+female,associate's degree,none,47
+male,high school,none,49
+male,some college,completed,50
+male,associate's degree,none,72
+male,high school,none,42
+female,some college,none,73
+female,some college,none,76
+female,associate's degree,none,71
+female,some college,none,58
+female,some high school,none,73
+female,bachelor's degree,none,65
+male,high school,none,27
+male,high school,none,71
+male,associate's degree,completed,43
+female,some college,none,79
+male,associate's degree,completed,78
+male,some high school,completed,65
+female,some college,completed,63
+female,some college,none,58
+female,bachelor's degree,none,65
+male,some college,none,79
+male,bachelor's degree,completed,68
+female,associate's degree,none,85
+male,high school,completed,60
+male,some college,completed,98
+female,some college,none,58
+female,master's degree,none,87
+male,associate's degree,completed,66
+female,associate's degree,none,52
+female,some high school,none,70
+female,associate's degree,completed,77
+male,high school,none,62
+male,associate's degree,none,54
+female,some college,none,51
+female,bachelor's degree,completed,99
+male,high school,none,84
+female,bachelor's degree,none,75
+female,bachelor's degree,none,78
+female,some high school,none,51
+female,some college,none,55
+female,bachelor's degree,completed,79
+male,associate's degree,completed,91
+female,some college,completed,88
+male,high school,none,63
+male,some college,none,83
+female,high school,none,87
+male,some high school,none,72
+male,some college,completed,65
+male,master's degree,none,82
+female,bachelor's degree,none,51
+male,master's degree,none,89
+male,some high school,completed,53
+male,some college,completed,87
+female,some college,completed,75
+male,bachelor's degree,completed,74
+male,bachelor's degree,none,58
+male,some high school,completed,51
+male,high school,none,70
+female,associate's degree,none,59
+male,some college,completed,71
+female,some high school,none,76
+female,some college,none,59
+female,some college,completed,42
+male,high school,none,57
+male,some college,none,88
+female,some college,none,22
+male,some high school,none,88
+male,associate's degree,none,73
+female,bachelor's degree,completed,68
+male,associate's degree,completed,100
+male,some high school,completed,62
+male,bachelor's degree,none,77
+female,associate's degree,completed,59
+male,bachelor's degree,none,54
+male,some high school,none,62
+female,some college,completed,70
+female,high school,completed,66
+male,some college,none,60
+female,associate's degree,completed,61
+male,associate's degree,none,66
+male,associate's degree,completed,82
+female,some college,completed,75
+male,master's degree,none,49
+male,high school,none,52
+female,master's degree,none,81
+female,bachelor's degree,completed,96
+male,high school,completed,53
+female,master's degree,completed,58
+female,high school,completed,68
+female,some college,completed,67
+male,high school,completed,72
+male,some high school,none,94
+female,some college,none,79
+female,associate's degree,none,63
+female,bachelor's degree,completed,43
+female,master's degree,completed,81
+female,high school,completed,46
+female,associate's degree,completed,71
+female,master's degree,completed,52
+female,some high school,completed,97
+male,master's degree,completed,62
+female,some college,none,46
+female,high school,none,50
+female,associate's degree,none,65
+male,some high school,completed,45
+male,associate's degree,completed,65
+male,high school,none,80
+male,some high school,completed,62
+male,some high school,none,48
+female,bachelor's degree,none,77
+female,associate's degree,none,66
+male,some college,completed,76
+female,some high school,none,62
+male,some college,completed,77
+female,master's degree,completed,69
+male,associate's degree,none,61
+male,some high school,completed,59
+male,high school,none,55
+female,some college,none,45
+female,bachelor's degree,none,78
+female,associate's degree,completed,67
+female,some college,none,65
+male,associate's degree,none,69
+female,associate's degree,none,57
+male,some college,none,59
+male,some high school,completed,74
+male,bachelor's degree,none,82
+male,high school,completed,81
+female,some college,none,74
+female,some college,none,58
+male,some high school,completed,80
+male,some college,none,35
+female,high school,none,42
+male,associate's degree,completed,60
+male,high school,completed,87
+male,some high school,completed,84
+female,associate's degree,completed,83
+female,high school,none,34
+male,high school,none,66
+male,some high school,completed,61
+female,high school,completed,56
+male,associate's degree,none,87
+female,some high school,none,55
+male,some high school,none,86
+female,associate's degree,completed,52
+female,master's degree,none,45
+female,some college,none,72
+male,high school,none,57
+male,some high school,none,68
+female,some college,completed,88
+male,some college,none,76
+male,associate's degree,none,46
+female,bachelor's degree,none,67
+male,some high school,none,92
+male,bachelor's degree,completed,83
+male,associate's degree,none,80
+male,bachelor's degree,none,63
+female,some high school,completed,64
+male,some college,none,54
+male,associate's degree,none,84
+male,high school,completed,73
+female,bachelor's degree,none,80
+female,high school,none,56
+male,some college,none,59
+male,some high school,none,75
+male,associate's degree,none,85
+male,associate's degree,none,89
+female,high school,completed,58
+female,high school,none,65
+male,high school,none,68
+male,some high school,completed,47
+female,some college,none,71
+female,some high school,completed,60
+male,master's degree,none,80
+male,high school,none,54
+female,some college,none,62
+female,associate's degree,none,64
+male,associate's degree,completed,78
+female,some college,none,70
+female,master's degree,completed,65
+female,some high school,completed,64
+male,some college,completed,79
+female,some high school,none,44
+female,high school,none,99
+male,high school,none,76
+male,some high school,none,59
+female,bachelor's degree,none,63
+female,high school,none,69
+female,associate's degree,completed,88
+female,some college,none,71
+male,bachelor's degree,none,69
+male,some college,none,58
+female,associate's degree,none,47
+female,some college,none,65
+male,some college,completed,88
+male,bachelor's degree,none,83
+female,some high school,completed,85
+female,high school,completed,59
+female,some high school,none,65
+male,bachelor's degree,none,73
+male,high school,none,53
+male,high school,none,45
+female,bachelor's degree,none,73
+female,some college,completed,70
+female,some high school,none,37
+male,associate's degree,completed,81
+male,associate's degree,completed,97
+female,some high school,none,67
+male,bachelor's degree,none,88
+male,some high school,completed,77
+male,associate's degree,none,76
+male,some high school,none,86
+male,some high school,completed,63
+female,bachelor's degree,none,65
+male,high school,completed,78
+male,associate's degree,none,67
+male,some high school,completed,46
+male,associate's degree,completed,71
+male,high school,completed,40
+male,associate's degree,none,90
+male,some college,completed,81
+male,some high school,none,56
+female,associate's degree,completed,67
+male,associate's degree,none,80
+female,associate's degree,completed,74
+male,some college,none,69
+male,some college,completed,99
+male,some high school,none,51
+female,associate's degree,none,53
+female,high school,none,49
+female,associate's degree,none,73
+male,bachelor's degree,none,66
+male,bachelor's degree,completed,67
+female,associate's degree,completed,68
+female,bachelor's degree,completed,59
+male,high school,none,71
+female,master's degree,completed,77
+male,associate's degree,none,83
+male,bachelor's degree,none,63
+female,associate's degree,none,56
+female,high school,completed,67
+female,high school,none,75
+female,some college,none,71
+female,some high school,none,43
+female,high school,none,41
+female,some college,none,82
+male,some college,none,61
+male,some college,none,28
+male,associate's degree,completed,82
+female,some high school,none,41
+male,high school,none,71
+male,associate's degree,none,47
+male,associate's degree,completed,62
+male,associate's degree,none,90
+female,bachelor's degree,none,83
+female,some college,none,61
+male,some high school,completed,76
+male,associate's degree,none,49
+female,some high school,none,24
+female,some high school,completed,35
+male,high school,none,58
+female,high school,none,61
+female,high school,completed,69
+male,associate's degree,completed,67
+male,some college,none,79
+female,high school,none,72
+male,some college,none,62
+female,bachelor's degree,completed,77
+male,high school,none,75
+male,associate's degree,none,87
+female,bachelor's degree,none,52
+male,some college,none,66
+female,some college,completed,63
+female,associate's degree,none,46
+female,some college,none,59
+female,bachelor's degree,none,61
+male,associate's degree,none,63
+female,some college,completed,42
+male,some college,none,59
+female,some college,none,80
+female,high school,none,58
+male,some high school,completed,85
+female,some college,none,52
+female,some high school,none,27
+male,some college,none,59
+male,bachelor's degree,completed,49
+male,high school,completed,69
+male,bachelor's degree,none,61
+female,some high school,none,44
+female,some high school,none,73
+male,some college,none,84
+female,some college,completed,45
+male,some high school,none,74
+female,some college,completed,82
+female,bachelor's degree,none,59
+male,associate's degree,none,46
+female,some high school,none,80
+female,master's degree,completed,85
+female,some high school,none,71
+male,bachelor's degree,none,66
+female,associate's degree,none,80
+male,associate's degree,completed,87
+male,master's degree,none,79
+female,some high school,none,38
+female,some high school,none,38
+female,some college,none,67
+female,bachelor's degree,none,64
+female,associate's degree,none,57
+female,high school,none,62
+male,master's degree,none,73
+male,some high school,completed,73
+female,some college,none,77
+male,some college,none,76
+male,associate's degree,completed,57
+female,some high school,completed,65
+male,high school,none,48
+female,high school,none,50
+female,associate's degree,none,85
+male,some high school,none,74
+male,some high school,none,60
+female,some high school,completed,59
+male,some college,none,53
+female,some college,none,49
+female,high school,completed,88
+female,high school,none,54
+female,some high school,none,63
+male,associate's degree,completed,65
+female,associate's degree,none,82
+female,high school,completed,52
+male,associate's degree,completed,87
+female,master's degree,completed,70
+male,some college,completed,84
+male,associate's degree,none,71
+male,some high school,completed,63
+female,bachelor's degree,completed,51
+male,high school,none,84
+male,bachelor's degree,completed,71
+male,associate's degree,none,74
+male,some college,none,68
+male,high school,completed,57
+female,associate's degree,completed,82
+female,high school,completed,57
+female,master's degree,completed,47
+female,some high school,completed,59
+male,some college,none,41
+female,some college,none,62
+male,bachelor's degree,none,86
+male,some high school,none,69
+male,some high school,none,65
+male,some high school,none,68
+male,associate's degree,none,64
+female,high school,none,61
+male,high school,none,61
+female,some high school,none,47
+male,some high school,none,73
+male,some college,completed,50
+male,associate's degree,none,75
+male,associate's degree,none,75
+male,high school,none,70
+male,some high school,completed,89
+female,some college,completed,67
+female,high school,none,78
+female,some high school,none,59
+female,associate's degree,none,73
+male,some high school,none,79
+female,some high school,completed,67
+male,some college,none,69
+male,high school,completed,86
+male,high school,none,47
+male,associate's degree,none,81
+female,some college,completed,64
+female,some college,none,100
+female,associate's degree,none,65
+male,some college,none,65
+female,associate's degree,none,53
+male,bachelor's degree,none,37
+female,bachelor's degree,none,79
+male,associate's degree,none,53
+female,bachelor's degree,none,100
+male,high school,completed,72
+male,bachelor's degree,none,53
+male,some college,none,54
+female,some college,none,71
+female,some college,none,77
+male,bachelor's degree,completed,75
+female,some college,none,84
+female,associate's degree,none,26
+male,high school,completed,72
+female,high school,completed,77
+male,some college,none,91
+female,associate's degree,completed,83
+female,high school,none,63
+female,associate's degree,completed,68
+female,some high school,none,59
+female,associate's degree,completed,90
+female,bachelor's degree,completed,71
+male,bachelor's degree,completed,76
+male,associate's degree,none,80
+female,master's degree,none,55
+male,associate's degree,none,76
+male,high school,completed,73
+female,associate's degree,none,52
+male,some college,none,68
+male,high school,none,59
+female,associate's degree,none,49
+male,high school,none,70
+male,some college,none,61
+female,associate's degree,none,60
+male,some high school,completed,64
+male,associate's degree,completed,79
+female,associate's degree,none,65
+female,associate's degree,none,64
+female,some college,none,83
+female,bachelor's degree,none,81
+female,high school,none,54
+male,high school,completed,68
+female,some college,none,54
+female,some college,completed,59
+female,some high school,none,66
+male,some college,none,76
+female,master's degree,none,74
+female,associate's degree,completed,94
+male,some college,none,63
+female,associate's degree,completed,95
+female,master's degree,none,40
+female,some high school,none,82
+male,high school,none,68
+male,bachelor's degree,none,55
+male,master's degree,none,79
+female,bachelor's degree,none,86
+male,some college,none,76
+male,some high school,none,64
+male,some high school,none,62
+female,some high school,completed,54
+female,master's degree,completed,77
+female,some high school,completed,76
+female,some college,none,74
+female,some college,completed,66
+female,some high school,completed,66
+female,high school,completed,67
+male,some college,none,71
+female,associate's degree,none,91
+male,bachelor's degree,none,69
+male,master's degree,none,54
+male,high school,completed,53
+male,some college,none,68
+male,some high school,completed,56
+female,high school,none,36
+female,bachelor's degree,none,29
+female,associate's degree,none,62
+female,associate's degree,completed,68
+female,some high school,none,47
+male,associate's degree,completed,62
+female,associate's degree,completed,79
+male,high school,completed,73
+female,bachelor's degree,completed,66
+male,associate's degree,completed,51
+female,high school,none,51
+male,bachelor's degree,completed,85
+male,associate's degree,completed,97
+male,high school,completed,75
+male,associate's degree,completed,79
+female,associate's degree,none,81
+female,associate's degree,none,82
+female,master's degree,none,64
+male,some high school,completed,78
+female,some high school,completed,92
+male,high school,completed,72
+female,high school,none,62
+male,master's degree,none,79
+male,some high school,none,79
+male,bachelor's degree,completed,87
+female,associate's degree,none,40
+male,some college,none,77
+male,associate's degree,none,53
+female,some college,none,32
+female,associate's degree,completed,55
+male,master's degree,none,61
+female,associate's degree,none,53
+male,some high school,none,73
+female,some college,completed,74
+female,some college,none,63
+male,bachelor's degree,completed,96
+female,some college,completed,63
+male,bachelor's degree,none,48
+male,associate's degree,none,48
+female,bachelor's degree,completed,92
+female,master's degree,completed,61
+male,high school,none,63
+male,bachelor's degree,none,68
+male,some college,completed,71
+male,bachelor's degree,none,91
+female,some college,none,53
+female,high school,completed,50
+female,high school,none,74
+male,associate's degree,completed,40
+male,some college,completed,61
+female,high school,none,81
+female,some college,completed,48
+female,master's degree,none,53
+female,some high school,none,81
+female,some high school,none,77
+female,bachelor's degree,none,63
+female,associate's degree,completed,73
+female,some college,none,69
+female,associate's degree,none,65
+female,high school,none,55
+female,bachelor's degree,none,44
+female,some college,none,54
+female,some high school,none,48
+male,some college,none,58
+male,some high school,none,71
+male,bachelor's degree,none,68
+female,high school,none,74
+female,bachelor's degree,completed,92
+female,bachelor's degree,completed,56
+male,high school,none,30
+male,some high school,none,53
+female,high school,none,69
+female,some high school,none,65
+female,master's degree,none,54
+female,high school,none,29
+female,some college,none,76
+male,high school,none,60
+male,master's degree,completed,84
+male,some high school,none,75
+female,associate's degree,none,85
+female,master's degree,none,40
+female,some college,none,61
+female,associate's degree,none,58
+male,some college,completed,69
+female,some college,none,58
+male,bachelor's degree,completed,94
+female,associate's degree,none,65
+female,associate's degree,none,82
+female,high school,none,60
+female,bachelor's degree,none,37
+male,bachelor's degree,none,88
+male,master's degree,none,95
+male,associate's degree,completed,65
+female,high school,none,35
+male,bachelor's degree,none,62
+male,high school,completed,58
+male,some college,completed,100
+female,bachelor's degree,none,61
+male,some college,completed,100
+male,associate's degree,completed,69
+male,associate's degree,none,61
+male,some college,none,49
+female,some high school,completed,44
+male,some college,none,67
+male,high school,none,79
+female,bachelor's degree,completed,66
+female,high school,none,75
+male,some high school,none,84
+male,high school,none,71
+female,high school,completed,67
+female,some high school,completed,80
+male,some college,none,86
+female,associate's degree,none,76
+male,high school,none,41
+female,associate's degree,completed,74
+female,some high school,none,72
+female,high school,completed,74
+male,high school,none,70
+female,bachelor's degree,completed,65
+female,associate's degree,none,59
+female,high school,none,64
+female,high school,none,50
+female,some college,completed,69
+male,some high school,completed,51
+female,high school,completed,68
+female,some college,completed,85
+female,associate's degree,completed,65
+female,some high school,none,73
+female,some college,none,62
+male,associate's degree,none,77
+male,some high school,none,69
+female,associate's degree,none,43
+male,associate's degree,none,90
+male,some college,none,74
+male,some high school,none,73
+female,some college,none,55
+female,high school,none,65
+male,associate's degree,none,80
+female,some high school,completed,50
+female,some college,completed,63
+female,bachelor's degree,none,77
+male,some college,none,73
+male,associate's degree,completed,81
+female,high school,none,66
+male,associate's degree,none,52
+female,some college,none,69
+female,associate's degree,completed,65
+female,high school,completed,69
+female,some college,completed,50
+female,some college,completed,73
+female,some high school,completed,70
+male,associate's degree,none,81
+male,some college,none,63
+female,high school,none,67
+male,high school,none,60
+male,high school,none,62
+female,some high school,completed,29
+male,some college,completed,62
+female,master's degree,completed,94
+male,some college,completed,85
+male,associate's degree,none,77
+male,high school,none,53
+male,some college,none,93
+female,associate's degree,none,49
+female,associate's degree,none,73
+female,bachelor's degree,completed,66
+female,associate's degree,none,77
+female,some high school,none,49
+female,some college,none,79
+female,associate's degree,completed,75
+female,bachelor's degree,none,59
+female,associate's degree,completed,57
+male,high school,none,66
+female,bachelor's degree,completed,79
+female,some high school,none,57
+male,bachelor's degree,completed,87
+female,some college,none,63
+female,some high school,completed,59
+male,bachelor's degree,none,62
+male,high school,none,46
+male,some college,none,66
+male,high school,none,89
+female,associate's degree,completed,42
+male,some college,completed,93
+female,some high school,completed,80
+female,some college,none,98
+male,master's degree,none,81
+female,some high school,completed,60
+female,associate's degree,completed,76
+male,associate's degree,completed,73
+female,associate's degree,completed,96
+female,high school,none,76
+male,associate's degree,completed,91
+female,some college,none,62
+male,some high school,completed,55
+female,some high school,completed,74
+male,high school,none,50
+male,some college,none,47
+male,some college,completed,81
+female,associate's degree,completed,65
+male,some high school,completed,68
+female,high school,none,73
+male,some college,none,53
+female,associate's degree,completed,68
+male,some high school,none,55
+female,some college,completed,87
+male,some high school,none,55
+female,some college,none,53
+male,master's degree,none,67
+male,associate's degree,none,92
+female,some college,completed,53
+male,associate's degree,none,81
+male,high school,none,61
+male,bachelor's degree,none,80
+female,associate's degree,none,37
+female,high school,none,81
+female,associate's degree,completed,59
+male,some college,none,55
+male,associate's degree,none,72
+male,high school,none,69
+male,some college,none,69
+female,bachelor's degree,none,50
+male,some college,completed,87
+male,some high school,completed,71
+male,some college,none,68
+male,master's degree,completed,79
+female,some high school,completed,77
+male,associate's degree,none,58
+female,associate's degree,none,84
+male,some college,none,55
+male,bachelor's degree,completed,70
+female,some college,completed,52
+male,some college,completed,69
+female,high school,none,53
+female,some high school,none,48
+male,some high school,completed,78
+female,high school,none,62
+male,some college,none,60
+female,high school,none,74
+female,high school,completed,58
+male,high school,completed,76
+female,some high school,none,68
+male,some college,none,58
+male,high school,none,52
+male,bachelor's degree,none,75
+female,some high school,completed,52
+female,bachelor's degree,none,62
+male,some college,none,66
+female,some high school,none,49
+female,high school,none,66
+female,some college,none,35
+female,some college,completed,72
+male,associate's degree,completed,94
+female,associate's degree,none,46
+female,master's degree,none,77
+female,high school,completed,76
+female,associate's degree,completed,52
+male,bachelor's degree,completed,91
+female,some high school,completed,32
+female,some high school,none,72
+female,some college,none,19
+male,associate's degree,none,68
+female,master's degree,none,52
+female,high school,none,48
+female,some college,none,60
+male,high school,none,66
+male,some high school,completed,89
+female,high school,none,42
+female,associate's degree,completed,57
+male,high school,none,70
+female,associate's degree,none,70
+male,some college,none,69
+female,associate's degree,none,52
+male,some high school,completed,67
+male,some high school,completed,76
+female,associate's degree,none,87
+female,some college,none,82
+female,some college,none,73
+male,some college,none,75
+female,some college,none,64
+female,high school,none,41
+male,high school,none,90
+male,bachelor's degree,none,59
+male,some high school,none,51
+male,high school,none,45
+female,master's degree,completed,54
+male,some high school,completed,87
+female,high school,none,72
+male,some high school,completed,94
+female,bachelor's degree,none,45
+male,bachelor's degree,completed,61
+female,high school,none,60
+female,some high school,none,77
+female,some high school,completed,85
+female,bachelor's degree,none,78
+male,some college,completed,49
+female,high school,none,71
+female,some high school,none,48
+male,high school,none,62
+female,associate's degree,completed,56
+female,some high school,none,65
+female,some high school,completed,69
+male,some high school,none,68
+female,some college,none,61
+female,bachelor's degree,completed,74
+male,bachelor's degree,none,64
+female,high school,completed,77
+male,some college,none,58
+female,high school,completed,60
+male,high school,none,73
+female,high school,completed,75
+male,associate's degree,completed,58
+female,associate's degree,none,66
+female,high school,none,39
+male,some high school,none,64
+female,high school,completed,23
+male,some college,completed,74
+female,some high school,completed,40
+male,master's degree,none,90
+male,master's degree,completed,91
+male,high school,none,64
+female,high school,none,59
+male,associate's degree,none,80
+male,master's degree,none,71
+female,high school,none,61
+female,some college,none,87
+male,some high school,none,82
+male,some high school,none,62
+female,bachelor's degree,none,97
+male,some college,none,75
+female,bachelor's degree,none,65
+male,high school,completed,52
+male,associate's degree,none,87
+female,associate's degree,none,53
+female,master's degree,none,81
+male,bachelor's degree,completed,39
+female,some college,completed,71
+male,associate's degree,none,97
+male,some college,completed,82
+male,high school,none,59
+male,associate's degree,none,61
+male,associate's degree,completed,78
+male,associate's degree,none,49
+male,high school,none,59
+female,some college,completed,70
+male,associate's degree,completed,82
+male,associate's degree,none,90
+female,bachelor's degree,none,43
+male,some college,none,80
+male,some college,none,81
+male,some high school,none,57
+female,some high school,none,59
+female,associate's degree,none,64
+male,bachelor's degree,completed,63
+female,bachelor's degree,completed,71
+female,high school,none,64
+male,bachelor's degree,none,55
+female,associate's degree,none,51
+female,associate's degree,completed,62
+female,associate's degree,completed,93
+male,high school,none,54
+female,some college,none,69
+male,high school,none,44
+female,some college,completed,86
+female,associate's degree,none,85
+female,master's degree,none,50
+male,some high school,completed,88
+female,associate's degree,none,59
+female,some high school,none,32
+male,high school,none,36
+female,some high school,completed,63
+male,associate's degree,completed,67
+female,some high school,completed,65
+male,master's degree,none,85
+female,master's degree,none,73
+female,high school,completed,34
+female,bachelor's degree,completed,93
+female,some high school,none,67
+male,some college,none,88
+male,high school,none,57
+female,some college,completed,79
+female,bachelor's degree,none,67
+male,bachelor's degree,completed,70
+male,bachelor's degree,none,50
+female,some college,none,69
+female,bachelor's degree,completed,52
+female,bachelor's degree,completed,47
+female,associate's degree,none,46
+female,some college,none,68
+male,bachelor's degree,completed,100
+female,high school,none,44
+female,associate's degree,completed,57
+male,some college,completed,91
+male,high school,none,69
+female,high school,none,35
+male,high school,none,72
+female,associate's degree,none,54
+male,high school,none,74
+male,some high school,completed,74
+male,associate's degree,none,64
+female,high school,completed,65
+male,associate's degree,completed,46
+female,some high school,none,48
+male,some college,completed,67
+male,some college,none,62
+male,associate's degree,completed,61
+male,bachelor's degree,completed,70
+male,associate's degree,completed,98
+male,some college,none,70
+male,associate's degree,none,67
+female,high school,none,57
+male,some college,completed,85
+male,some high school,completed,77
+male,master's degree,completed,72
+female,master's degree,none,78
+male,high school,none,81
+male,some high school,completed,61
+female,high school,none,58
+female,associate's degree,none,54
+male,high school,none,82
+female,some college,none,49
+male,some high school,completed,49
+female,high school,completed,57
+male,high school,none,94
+female,some college,completed,75
+female,some high school,none,74
+male,high school,completed,58
+female,some college,none,62
+male,associate's degree,none,72
+male,some college,none,84
+female,master's degree,none,92
+female,high school,none,45
+male,high school,none,75
+female,some college,none,56
+female,some high school,none,48
+female,associate's degree,none,100
+female,some high school,completed,65
+male,some college,none,72
+female,some college,none,62
+male,some high school,completed,66
+male,some college,none,63
+female,associate's degree,none,68
+female,bachelor's degree,none,75
+female,bachelor's degree,none,89
+male,some high school,completed,78
+female,high school,completed,53
+female,some college,none,49
+female,some college,none,54
+female,some college,completed,64
+male,some college,completed,60
+male,associate's degree,none,62
+male,high school,completed,55
+female,associate's degree,none,91
+female,high school,none,8
+male,some high school,none,81
+male,some high school,completed,79
+female,some college,completed,78
+female,some high school,none,74
+male,high school,none,57
+female,associate's degree,none,40
+male,some high school,completed,81
+female,some high school,none,44
+female,some college,completed,67
+male,high school,completed,86
+female,some high school,completed,65
+female,associate's degree,none,55
+female,bachelor's degree,none,62
+male,high school,none,63
+female,master's degree,completed,88
+male,high school,none,62
+female,high school,completed,59
+female,some college,completed,68
+female,some college,none,77
