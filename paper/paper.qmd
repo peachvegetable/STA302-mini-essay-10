@@ -1,13 +1,10 @@
 ---
 title: "My title"
-subtitle: "My subtitle if needed"
 author: 
-  - First author
-  - Another author
+  - Yihang Cai
 thanks: "Code and data are available at: https://github.com/peachvegetable/STA302-mini-essay-10"
 date: today
 date-format: long
-abstract: "First sentence. Second sentence. Third sentence. Fourth sentence."
 format: pdf
 number-sections: true
 bibliography: references.bib
@@ -18,9 +15,13 @@ bibliography: references.bib
 #| warning: false
 #| message: false
 
-library(tidyverse)
-library(knitr)
 library(rstanarm)
+library(tidyverse)
+library(ggplot2)
+library(janitor)
+library(dplyr)
+library(readr)
+library(knitr)
 library(modelsummary)
 library(boot)
 library(broom.mixed)
@@ -29,38 +30,57 @@ library(broom.mixed)
 
 # Introduction
 
-Generates a model on the dataset obtained from kaggle Student Study Performance, how math score is related to various variables.
+Understanding the factors that influence academic performance has been a critical area of educational research, as it can inform strategies to enhance learning outcomes and identify areas where support is needed. The @sec-data section introduces the dataset obtained from kaggle. The @sec-model section justifies the choice of the model and then summaries the outcome of the model. 
 
 
 
 # Data {#sec-data}
 
+The dataset hosted on Kaggle, titled "Student Study Performance," provides a rich source of information to analyze various aspects that may affect a student's academic scores. This dataset encompasses a range of variables including demographic details, parental level of education, test preparation courses, and students' math scores.
+
 ```{r}
-#| label: tbl-meanvariance
-#| tbl-cap: mean and variance of the math score
+#| label: tbl-top10rows
+#| tbl-cap: top 10 rows of the dataset
 #| echo: false
 #| warning: false
 
 analysis_data <- read.csv("../data/analysis_data/analysis_data.csv")
 
-
-mean_var <- analysis_data|>
-  summarise(
-    Mean_Deaths = mean(math_score, na.rm = TRUE),
-    Variance_Deaths = var(math_score, na.rm = TRUE)
+head(analysis_data, 10) |>
+  kable(
+    col.names = c("Gender", "Level of Parent Education", "Test Preparation", "Math Score"),
+    align = c("l", "l", "l", "r"),
+    digits = 0, booktabs = TRUE, linesep = ""
   )
-
-# Use kable to create a table
-kable_table <- kable(mean_var, format = "latex", digits = c(1, 1),
-                     col.names = c("Mean", "Variance"))
-
-kable_table
-
 ```
 
+@tbl-top10rows shows the top 10 rows of the selected data, displaying students' math score, gender, parents' level of education and test preparation status. 
+
+
+
+
+# Model {#sec-model}
+
+
+## Model set-up
+
+Define $y_i$ as the math score. Then $\beta_0$ is the intercept and $\beta_1$ to $\beta_3$ is coefficient to the variables.  
+
+\begin{align*} 
+y_i|\lambda_i, \theta &\sim \text{NegativeBinomial}(\mu_i, \theta) \\
+\log(\mu_i) & = \beta_0 + \beta_1 \times \text{gender}_i + \beta_2 \times \text{parental\_level\_of\_education}_i + \beta_3 \times \text{test\_preparation\_course}_i \\
+\beta_0 & \sim \text{Normal}(0, 2.5) \\
+\beta_1 & \sim \text{Normal}(0, 2.5) \\
+\beta_2 & \sim \text{Normal}(0, 2.5) \\
+\beta_3 & \sim \text{Normal}(0, 2.5) 
+\end{align*}
+
+
+## Model summary
+
 ```{r}
-#| label: tbl-meanvariance
-#| fig-cap: mean and variance of the math score
+#| label: tbl-negbinomial
+#| tbl-cap: Negative binomial model summary
 #| echo: false
 #| warning: false
 
@@ -73,25 +93,41 @@ modelsummary(
 )
 ```
 
+@tbl-negbinomial displays the summary of the model. Intercept: The model's intercept, 4.229, is the log count of the expected math_score when all other predictors are held at their reference levels (which typically means 'female' for gender, 'none' or a baseline category for parental level of education, and 'completed' for test preparation course). 
 
+gendermale: The coefficient for 'gendermale' is 0.082. This suggests that, holding all else constant, being male is associated with a log count increase in the math_score of about 0.082 as compared to being female.
 
+parental_level_of_education: This set of coefficients compares different levels of parental education to the reference category. For example:
 
-# Model
+bachelor's degree: The coefficient is 0.021, meaning that having a parent with a bachelor's degree is associated with a log count increase in the math_score of about 0.021 as compared to the reference category.
+high school: The coefficient is -0.085, meaning that having a parent with only a high school education is associated with a log count decrease in the math_score of about 0.085 as compared to the reference category.
+The other education levels can be interpreted similarly. A positive coefficient indicates an increase in log count score compared to the reference, and a negative coefficient indicates a decrease.
+test_preparation_course: The coefficient for 'test_preparation_coursenone' is -0.082. This indicates that not taking a test preparation course is associated with a log count decrease in the math_score of about 0.082 as compared to those who did complete a test preparation course.
 
+## Model justification
 
-## Model set-up
+```{r}
+#| label: tbl-meanvariance
+#| tbl-cap: Mean and variance of students' math score
+#| echo: false
+#| warning: false
 
-Define $y_i$ as the number of seconds that the plane remained aloft. Then $\beta_i$ is the wing width and $\gamma_i$ is the wing length, both measured in millimeters.  
+analysis_data <- read.csv("../data/analysis_data/analysis_data.csv")
 
-\begin{align} 
-y_i|\mu_i, \sigma &\sim \mbox{Normal}(\mu_i, \sigma) \\
-\mu_i &= \alpha + \beta_i + \gamma_i\\
-\alpha &\sim \mbox{Normal}(0, 2.5) \\
-\beta &\sim \mbox{Normal}(0, 2.5) \\
-\gamma &\sim \mbox{Normal}(0, 2.5) \\
-\sigma &\sim \mbox{Exponential}(1)
-\end{align}
+mean_var <- analysis_data|>
+  summarise(
+    Mean_Deaths = mean(math_score, na.rm = TRUE),
+    Variance_Deaths = var(math_score, na.rm = TRUE)
+  )
 
+# Use kable to create a table
+kable_table <- kable(mean_var, format = "latex", digits = c(1, 1),
+                     col.names = c("Mean", "Variance"))
+
+kable_table
+```
+
+@tbl-meanvariance shows the mean and variance of students' math scores can be used to justify the choice of a negative binomial regression model over Poisson or logistic regression models when dealing with count data that exhibit overdispersion. The Poisson regression model assumes that the mean and variance of the count data are equal (equidispersion). If we were to use a Poisson model for data where the variance significantly exceeds the mean, as it does here (mean = 66.1, variance = 229.9), it would likely underestimate the variance. This underestimation can lead to confidence intervals that are too narrow and p-values that are too small, increasing the risk of Type I errors (incorrectly rejecting the null hypothesis). The negative binomial regression model is a generalization of the Poisson regression model that includes an additional parameter to model the overdispersion. This extra parameter allows the variance to be greater than the mean. Given that the variance in your data is much greater than the mean, the negative binomial model is a suitable choice because it can accommodate this overdispersion, providing more accurate standard errors and confidence intervals than a Poisson model. Logistic regression is used for binary outcome variables, not for count data. Since the outcome variable in question is a count (math score), logistic regression is not an appropriate model for this data. The choice between a logistic model and a model for count data would typically depend on the nature of the dependent variable. Since we are dealing with count data rather than binary outcomes, logistic regression is not applicable.
 
 \newpage
 

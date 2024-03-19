@@ -23,4 +23,3 @@ saveRDS(
   file = "models/neg_binomial_model.rds"
 )
 
-
