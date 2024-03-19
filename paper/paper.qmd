@@ -38,6 +38,8 @@ Understanding the factors that influence academic performance has been a critica
 
 The dataset hosted on Kaggle, titled "Student Study Performance," provides a rich source of information to analyze various aspects that may affect a student's academic scores. This dataset encompasses a range of variables including demographic details, parental level of education, test preparation courses, and students' math scores.
 
+Data for this study were prepared and analyzed using R [@citeR], grasping several packages including Tidyverse [@citeTidyverse] for data manipulation, Janitor [@citeJanitor] for data cleaning, Readr [@citeReadr] for data import, Dplyr [@citeDplyr] for data manipulation, Knitr [@citeKnitr] for dynamic reporting, Modelsummary [@citeModelsummary] for summarizing model outputs, and Rstanarm [@citeRstanarm] for Bayesian modeling.
+
 ```{r}
 #| label: tbl-top10rows
 #| tbl-cap: top 10 rows of the dataset
